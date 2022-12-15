@@ -1,5 +1,5 @@
 #Hola.
-#En esta ocasiÃ³n vamos a continuar con el cÃ³digo de nuestra red social,
+#En esta ocasión vamos a continuar con el código de nuestra red social,
 #al cual le habÃ­amos agregado un menÃº.
 #
 #El programa de la semana anterior permitÃ­a:
@@ -30,28 +30,28 @@ print("Hola ", nombre, ", bienvenido a Mi Red")
 print()
 
 # CÃ¡lculo de edad
-agno = int(input("Para preparar tu perfil, dime en quÃ© aÃ±o naciste. "))
+agno = int(input("Para preparar tu perfil, dime en qué año naciste. "))
 edad = 2017-agno-1
 print()
 
 # CÃ¡lculo de estatura
-estatura = float(input("CuÃ©ntame mÃ¡s de ti, para agregarlo a tu perfil. Â¿CuÃ¡nto mides? DÃ­melo en metros. "))
+estatura = float(input("Cuéntame más de ti, para agregarlo a tu perfil. ¿Cuánto mides? Dímelo en metros. "))
 estatura_m = int(estatura)
 estatura_cm = int( (estatura - estatura_m)*100 )
 
 # Cantidad de amigos
-num_amigos = int(input("Muy bien. Finalmente, cuÃ©ntame cuantos amigos tienes. "))
+num_amigos = int(input("Muy bien. Finalmente, cuéntame cuantos amigos tienes. "))
 
 #Con los datos recolectados escribimos en pantalla un texto que resuma los datos que hemos obtenido
 print()
 print("Muy bien,", nombre, ". Entonces podemos crear un perfil con estos datos.")
 print("--------------------------------------------------")
 print("Nombre:  ", nombre)
-print("Edad:    ", edad, "aÃ±os")
-print("Estatura:", estatura_m, "metros y", estatura_cm, "centÃ­metros")
+print("Edad:    ", edad, "años")
+print("Estatura:", estatura_m, "metros y", estatura_cm, "centímetros")
 print("Amigos:  ", num_amigos)
 print("--------------------------------------------------")
-print("Gracias por la informaciÃ³n. Esperamos que disfrutes con Mi Red")
+print("Gracias por la información. Esperamos que disfrutes con Mi Red")
 print()
 
 #Esta opcion permite entrar al ciclo. Solo interesa que no sea 0.
